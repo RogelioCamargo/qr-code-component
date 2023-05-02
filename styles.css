@@ -1,11 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   height: 100vh;
-  box-sizing: border-box;
 }
 
-article {
+main {
   background-color: hsl(0, 0%, 100%);
   position: absolute;
   top: 50%;
@@ -30,7 +35,7 @@ span {
   transform: translateX(-50%);
 }
 
-#qr-code {
+.qr-code {
   display: block;
   margin: 15px auto 20px;
   border-radius: 2.5%;
@@ -38,7 +43,7 @@ span {
   width: 275px;
 }
 
-#title {
+.title {
   color: hsl(218, 44%, 22%);
   margin-top: 15px;
   text-align: center;
@@ -46,18 +51,18 @@ span {
   font-weight: 700;
 }
 
-#title > span {
+.title > span {
   display: block;
   font-size: 20px;
 }
 
-#description {
+.description {
   color: hsl(220, 15%, 55%);
   margin-top: 15px;
   text-align: center;
   font-weight: 400;
 }
 
-#description > span {
+.description > span {
   display: block;
 }
